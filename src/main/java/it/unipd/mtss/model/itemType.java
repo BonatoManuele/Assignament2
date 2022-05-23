@@ -3,10 +3,8 @@
 // [Pietro] [Valdagno] [2000561]
 ////////////////////////////////////////////////////////////////////
 
-package it.unipd.mtss;
+package it.unipd.mtss.model;
 
-public class App 
-{
-        public static void main( String[] args ){
-    }
+public enum itemType {
+    processor, motherboard, mouse, keyboard;
 }
